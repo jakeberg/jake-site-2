@@ -1,0 +1,386 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+a {
+    color: navy;
+}
+
+.faMarg {
+    margin-top: 300px;
+}
+
+.divider1 {
+    display: none;
+    height: 220px;
+    background: url("/pics/nikkeiGif.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.divider1-content {
+    display: block;
+    height: auto;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.divider1hover {
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+}
+
+.divider2 {
+    display: none;
+    height: 220px;
+    background: url("/pics/code.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.divider2-content {
+    display: block;
+    height: auto;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.divider2hover {
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+}
+
+.divider3 {
+    display: none;
+    height: 220px;
+    background: url("/pics/photos/26.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.divider3-content {
+    display: block;
+    height: auto;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.divider3hover {
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    position: relative;
+    height: 600px;
+    background: url("/pics/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.header2 {
+    position: relative;
+    height: 200px;
+    background: url("/pics/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    top: 50px;
+    margin-top: -50px;
+    margin-left: 300px;
+    position: absolute;
+    color: antiquewhite;
+    font-size: 1000%;
+    
+}
+.logoSm {
+    height: 100%;
+    width: 100%;
+    top: 50px;
+    margin-top: -50px;
+    margin-left: 25%;
+    margin-right: 50%;
+    position: absolute;
+    color: antiquewhite;
+    font-size: 300%;
+}
+
+ 
+
+p {
+    font-size: 100%;
+    display: none;
+}
+.pulsate {
+    margin-top: 4px;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.2;
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.cross-container1 {
+    display: none;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: rgba(80, 134, 244, 1);
+}
+
+.cross-container2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background: rgba(65, 244, 205, 1);
+}
+
+.cross-container3 {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background: rgba(244, 169, 65, 1);
+}
+
+.cross-container4 {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background: rgba(65, 244, 142, 1);
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 2px;
+    width: 100%;
+    background: rgba(244, 80, 80, 1);
+    text-align: center;
+    color: white;
+}
+
+.figure {
+    position: relative;
+    opacity: 0;
+    transform: translate(500px);
+    transition: all 0.3s ease-in-out;
+}
+
+.figure2 {
+    position: relative;
+    opacity: 0;
+    transform: translate(50px);
+    transition: all 0.3s ease-in-out;
+}
+
+.is-showing {
+    opacity: 1;
+    transform: translate(0px);
+}
+
+.modal-backdrop {
+    opacity: 0.5 !important;
+}
+
+.modal-content {
+    padding: 5px;
+
+}
+.nine-slide {
+    width: 300px;
+}
+.ten-slide {
+    width: 300px;
+}
+
+.carousel-inner img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+
+
+@media all and (max-width: 1050px) {
+    .header {
+        height: 400px;
+    }
+    p {
+        font-size: 85%;
+    }
+    #content-container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .divider1hover {
+    height: 300px;
+
+}
+        .divider2hover {
+    height: 300px;
+
+}
+        .divider3hover {
+    height: 300px;
+
+}
+    .logo {
+    
+    font-size: 600%;
+    margin-left: 100px;
+    
+}
+    .faMarg {
+    margin-top: 200px;
+}
+
+    
+}
+
+@media all and (max-width: 720px) {
+        .divider1 {
+        height: 200px;
+        
+    }
+        .divider2 {
+        height: 200px;
+        
+    }
+    .divider3 {
+        height: 200px;
+        
+    }
+    .modal-content {
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+    
+    
+        .divider1hover {
+    height: 250px;
+
+}
+        .divider2hover {
+    height: 250px;
+
+}
+        .divider3hover {
+    height: 250px;
+
+}
+    p {
+        font-size: 65%;
+    }
+
+    
+        .logo {
+    
+    font-size: 600%;
+    margin-left: 50px;
+    
+}
+    .faMarg {
+    margin-top: 100px;
+}
+    
+}
+
+@media all and (max-width: 414px) {
+    
+            .divider1hover {
+    height: 200px;
+
+}
+        .divider2hover {
+    height: 200px;
+
+}
+        .divider3hover {
+    height: 200px;
+
+}
+        p {
+        font-size: 50%;
+    }
+        .header {
+        height: 500px;
+    }
+    
+            .divider1 {
+        height: 185px;
+        
+    }
+        .divider2 {
+        height: 190px;
+        
+    }
+            .divider3 {
+        height: 190px;
+        
+    }
+
+            .logo {
+    
+    font-size: 600%;
+    margin-left: 20px;
+    
+}
+    
+    .faMarg {
+    margin-top: 75px;
+}
+}
+
