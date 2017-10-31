@@ -20,6 +20,10 @@ a {
     padding-bottom: 15px;
 }
 
+.resume {
+    text-align: center;
+}
+
 .faMarg {
     margin-top: 300px;
 }
@@ -27,7 +31,7 @@ a {
 .divider1 {
     display: none;
     height: 220px;
-    background: url("/pics/nikkeiGif.gif");
+    background: url("/pics/nikkeiGif.gif") 0 -50px;
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
@@ -51,7 +55,7 @@ a {
 .divider2 {
     display: none;
     height: 220px;
-    background: url("/pics/code.png");
+    background: url("/pics/code.png") 0 -50px;
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
@@ -75,7 +79,7 @@ a {
 .divider3 {
     display: none;
     height: 220px;
-    background: url("/pics/photos/26.jpg");
+    background: url("/pics/photos/26.jpg") 0 -70px;
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
@@ -301,20 +305,30 @@ p {
 @media all and (max-width: 720px) {
         .divider1 {
         height: 200px;
+        background:0 0 0 0;
+            
         
     }
         .divider2 {
         height: 200px;
+            background:0 0 0 0;
         
     }
     .divider3 {
         height: 200px;
+        background:0 0 0 0;
         
     }
+    
     .modal-content {
     padding: 5px;
     margin-left: 0px;
     margin-right: 0px;
+}
+.btnPad {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15px;
 }
     
     
@@ -361,6 +375,7 @@ p {
     height: 200px;
 
 }
+
         p {
         font-size: 50%;
     }
