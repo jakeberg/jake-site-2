@@ -14,6 +14,12 @@ a {
     color: navy;
 }
 
+.btnPad {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 15px;
+}
+
 .faMarg {
     margin-top: 300px;
 }
@@ -171,6 +177,7 @@ p {
 
 .cross-container1 {
     display: none;
+    text-align: center;
     width: 100%;
     height: auto;
     padding: 15px;
@@ -179,6 +186,7 @@ p {
 
 .cross-container2 {
     display: block;
+    text-align: center;
     width: 100%;
     height: auto;
     padding: 10px;
@@ -187,6 +195,7 @@ p {
 
 .cross-container3 {
     display: block;
+    text-align: center;
     width: 100%;
     height: auto;
     padding: 10px;

@@ -1,15 +1,3 @@
-$(document).ready(function() {
-  $('#modal1, #modalOne, #modalOneV, #modal2, #modal3, #modal4, #modalFour, #modalFourV, #modal5, #modal6, #modal7, #modal8, #modal9').on('hidden.bs.modal', function() {
-    var $this = $(this).find('iframe'),
-      tempSrc = $this.attr('src');
-    $this.attr('src', "");
-    $this.attr('src', tempSrc);
-  });
-});
-
-
-
-
 $(window).scroll(function () {
     var wScroll = $(this).scrollTop(); 
     $('.logo, .logoSm').css ({
