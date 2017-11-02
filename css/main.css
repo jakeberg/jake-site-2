@@ -31,7 +31,7 @@ a {
 .divider1 {
     display: none;
     height: 220px;
-    background: url("/pics/nikkeiGif.gif") 0 -50px;
+    background: url("/pics/nikkeiGif.gif");
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
@@ -55,7 +55,7 @@ a {
 .divider2 {
     display: none;
     height: 220px;
-    background: url("/pics/code.png") 0 -50px;
+    background: url("/pics/code.png");
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
@@ -79,7 +79,7 @@ a {
 .divider3 {
     display: none;
     height: 220px;
-    background: url("/pics/photos/26.jpg") 0 -70px;
+    background: url("/pics/photos/26.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
@@ -305,18 +305,17 @@ p {
 @media all and (max-width: 720px) {
         .divider1 {
         height: 200px;
-        background:0 0 0 0;
+
             
         
     }
         .divider2 {
         height: 200px;
-            background:0 0 0 0;
+
         
     }
     .divider3 {
         height: 200px;
-        background:0 0 0 0;
         
     }
     
